@@ -1,0 +1,1540 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="/media/idf/css/yui.css" />
+  <link rel="stylesheet" type="text/css" href="/media/idf/css/style.css" />
+  <link rel="icon" type="image/png" href="/media/idf/img/favicon.png" />
+  <!--[if lt IE 7]>
+  <link rel="stylesheet" type="text/css" href="/media/idf/css/ie6.css" />
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="/media/idf/css/prettify.css" />
+  <title>csv/datasets/iris.csv - Datasets distributed with R Git Source Tree - rdataset is a collection of 597 datasets that were originally distributed alongside the statistical software environment &quot;R&quot; and some of its add-on packages.</title>
+  <script type="text/javascript" src="/media/idf/js/jquery-1.7.2.min.js"></script>
+  <meta name="indefero-version" content="1.3.3" />
+<meta name="indefero-revision" content="ebb8d46420ecdd177dcbf4a7c7bd64959ffadbec" />
+
+</head>
+<body>
+<div id="doc3" class="yui-t1">
+  <div id="hd">
+    <h1 class="project-title">Datasets distributed with R
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" /></h1>
+    <a href="#title" accesskey="2"></a>
+<ul id="main-menu">
+<li>
+<a href="/index.php/login/">Sign in or create your account</a></li>
+<li id="project-list"><a href="/index.php/projects/">Project List &#x25be;</a>
+
+<ul>
+<li><a href="/index.php/p/plotlib/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+&quot;Matlab-like&quot; plotting library</a></li>
+
+<li><a href="/index.php/p/NET-COMponent/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+.NET component and COM server</a></li>
+
+<li><a href="/index.php/p/python/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+A Simple Scilab-Python Gateway</a></li>
+
+<li><a href="/index.php/p/VirtualKeyboard/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+A Virtual GUI Keyboard for Scilab</a></li>
+
+<li><a href="/index.php/p/accsum/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+accsum</a></li>
+
+<li><a href="/index.php/p/apef/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Accurate and portable elementary functions</a></li>
+
+<li><a href="/index.php/p/aerospace-blockset/">
+
+<img class="logo" src="/index.php/p/aerospace-blockset/logo/" alt="Project logo" />
+Aerospace Blockset for Xcos</a></li>
+
+<li><a href="/index.php/p/aerospace-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+aerospace-toolbox</a></li>
+
+<li><a href="/index.php/p/allan-variance/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Allan variance</a></li>
+
+<li><a href="/index.php/p/http/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+An HTTP client for Scilab</a></li>
+
+<li><a href="/index.php/p/ann-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ANN toolbox</a></li>
+
+<li><a href="/index.php/p/anova/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ANOVA toolbox</a></li>
+
+<li><a href="/index.php/p/apifun/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Apifun</a></li>
+
+<li><a href="/index.php/p/arduino/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+arduino</a></li>
+
+<li><a href="/index.php/p/arpack-ng/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+arpack-ng</a></li>
+
+<li><a href="/index.php/p/assert/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Assert</a></li>
+
+<li><a href="/index.php/p/atoms-tests/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+atoms-tests</a></li>
+
+<li><a href="/index.php/p/atomscc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+atomscc</a></li>
+
+<li><a href="/index.php/p/act/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Automatic Control Toolbox</a></li>
+
+<li><a href="/index.php/p/arktoolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Autonomous Robotics Kit Toolbox</a></li>
+
+<li><a href="/index.php/p/autorun/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+autorun</a></li>
+
+<li><a href="/index.php/p/BackDoor/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+BackDoor</a></li>
+
+<li><a href="/index.php/p/bench-scilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+bench-scilab</a></li>
+
+<li><a href="/index.php/p/bigint/">
+
+<img class="logo" src="/index.php/p/bigint/logo/" alt="Project logo" />
+Big Integers</a></li>
+
+<li><a href="/index.php/p/binary-patch/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+binary-patch</a></li>
+
+<li><a href="/index.php/p/bufferblock/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Buffer block</a></li>
+
+<li><a href="/index.php/p/cwa/">
+
+<img class="logo" src="/index.php/p/cwa/logo/" alt="Project logo" />
+Cardiovascular Wave Analysis toolbox</a></li>
+
+<li><a href="/index.php/p/casci/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CASCI - P. Castagliola's Probability &amp; Statistics Functions</a></li>
+
+<li><a href="/index.php/p/celestlab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CelestLab </a></li>
+
+<li><a href="/index.php/p/cgal/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+cgal</a></li>
+
+<li><a href="/index.php/p/cglab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CGLAB OLD</a></li>
+
+<li><a href="/index.php/p/check-videocard/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+check-videocard</a></li>
+
+<li><a href="/index.php/p/sCiMake/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CMake Generation of Scilab</a></li>
+
+<li><a href="/index.php/p/scisie/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Code generator for SIE platform (MIPS+FPGA)</a></li>
+
+<li><a href="/index.php/p/com-application-server/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+COM-Application-Server</a></li>
+
+<li><a href="/index.php/p/compdiv/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+compdiv</a></li>
+
+<li><a href="/index.php/p/scicv/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Computer Vision Module</a></li>
+
+<li><a href="/index.php/p/cvfunctions/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+computer_vision functions for scilab</a></li>
+
+<li><a href="/index.php/p/condnb/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+condnb</a></li>
+
+<li><a href="/index.php/p/conint/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Conint</a></li>
+
+<li><a href="/index.php/p/contour3d/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Contour3D</a></li>
+
+<li><a href="/index.php/p/convertlatin/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+convertlatin</a></li>
+
+<li><a href="/index.php/p/coselica/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+coselica</a></li>
+
+<li><a href="/index.php/p/cpge/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CPGE</a></li>
+
+<li><a href="/index.php/p/csv-readwrite/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+csv_readwrite</a></li>
+
+<li><a href="/index.php/p/cudalinalg/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+cudalinalg</a></li>
+
+<li><a href="/index.php/p/cuter/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CUTEr</a></li>
+
+<li><a href="/index.php/p/dace-scilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+DACE for Scilab</a></li>
+
+<li><a href="/index.php/p/dm-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Data Mining toolbox</a></li>
+
+<li><a href="/index.php/p/scidb/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Database Module + FuzzySQL</a></li>
+
+<li><a href="/index.php/p/rdataset/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Datasets distributed with R</a></li>
+
+<li><a href="/index.php/p/dbldbl/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+dbldbl</a></li>
+
+<li><a href="/index.php/p/dde-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+dde_toolbox</a></li>
+
+<li><a href="/index.php/p/diffcode/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+diffcode</a></li>
+
+<li><a href="/index.php/p/digimetrie-tools/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Digimetrie's Boards Tools</a></li>
+
+<li><a href="/index.php/p/dispmat/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Dispmat</a></li>
+
+<li><a href="/index.php/p/distfun/">
+
+<img class="logo" src="/index.php/p/distfun/logo/" alt="Project logo" />
+Distribution Functions</a></li>
+
+<li><a href="/index.php/p/dnims/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+dNIMS</a></li>
+
+<li><a href="/index.php/p/docmathroadmap/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : A Proposal for a Mathematical Roadmap</a></li>
+
+<li><a href="/index.php/p/docscifloat/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Floating Point Numbers in Scilab</a></li>
+
+<li><a href="/index.php/p/docintrodiscrprobas/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Introduction to Discrete Probabilities</a></li>
+
+<li><a href="/index.php/p/docintroscioptim/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Introduction to Optimization with Scilab</a></li>
+
+<li><a href="/index.php/p/docintrotoscilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Introduction To Scilab</a></li>
+
+<li><a href="/index.php/p/docscisparse/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Introduction to Sparse Matrices in Scilab</a></li>
+
+<li><a href="/index.php/p/docnumder/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Numerical Derivatives in Scilab</a></li>
+
+<li><a href="/index.php/p/docoptimscilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Optimization In Scilab</a></li>
+
+<li><a href="/index.php/p/docprogscilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Programming in Scilab</a></li>
+
+<li><a href="/index.php/p/docscilabisnotnaive/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Scilab is Not Naive</a></li>
+
+<li><a href="/index.php/p/docneldermead/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : The Nelder Mead Component </a></li>
+
+<li><a href="/index.php/p/docuncoptimcond/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Unconstrained Optimality Conditions with Scilab</a></li>
+
+<li><a href="/index.php/p/docsciextensions/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Writing Scilab Extensions</a></li>
+
+<li><a href="/index.php/p/doetbx/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+doetbx</a></li>
+
+<li><a href="/index.php/p/ebayes/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+eBayes: Scilab Package for Evolutionary Filtering</a></li>
+
+<li><a href="/index.php/p/epfs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Embedding Python From Scilab</a></li>
+
+<li><a href="/index.php/p/file/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+File</a></li>
+
+<li><a href="/index.php/p/financial/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Financial</a></li>
+
+<li><a href="/index.php/p/flexdock/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+flexdock</a></li>
+
+<li><a href="/index.php/p/floatingpoint/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Floating Point</a></li>
+
+<li><a href="/index.php/p/fmincont/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+fmincon</a></li>
+
+<li><a href="/index.php/p/fsolver/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+fsolver</a></li>
+
+<li><a href="/index.php/p/sciflt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Fuzzy Logic Toolbox</a></li>
+
+<li><a href="/index.php/p/galois-fields/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Galois Fields</a></li>
+
+<li><a href="/index.php/p/geneauto-p/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Geneauto / P toolset</a></li>
+
+<li><a href="/index.php/p/giws/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+GIWS - A wrapper generator to generate C++ mapping Java classes</a></li>
+
+<li><a href="/index.php/p/gsimd/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+gsimd</a></li>
+
+<li><a href="/index.php/p/guimaker/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+guimaker</a></li>
+
+<li><a href="/index.php/p/heat-flow-inspector/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Heat Flow Inspector</a></li>
+
+<li><a href="/index.php/p/helptbx/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+helptbx</a></li>
+
+<li><a href="/index.php/p/scihttp/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+HTTP Toolbox</a></li>
+
+<li><a href="/index.php/p/hyb-auto-module/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Hybrid automata module for Scilab/Xcos</a></li>
+
+<li><a href="/index.php/p/hat/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Hyperspectral Analysis Toolbox</a></li>
+
+<li><a href="/index.php/p/hypt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+hypt - Hypothesis Testing</a></li>
+
+<li><a href="/index.php/p/ipcv/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Image Processing and Computer Vision Toolbox</a></li>
+
+<li><a href="/index.php/p/IPD/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Image Processing Design</a></li>
+
+<li><a href="/index.php/p/impsam/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+impsam</a></li>
+
+<li><a href="/index.php/p/indinf/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Indirect Influences</a></li>
+
+<li><a href="/index.php/p/intprbs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Integration Problems</a></li>
+
+<li><a href="/index.php/p/ipoptlib/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ipoptlib</a></li>
+
+<li><a href="/index.php/p/imsls/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Iterative Methods for Sparse Linear Systems</a></li>
+
+<li><a href="/index.php/p/javahelp-ng/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+javahelp-ng</a></li>
+
+<li><a href="/index.php/p/jbh/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+jbh</a></li>
+
+<li><a href="/index.php/p/JIMS/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+JIMS — Java Interaction Mechanism in Scilab</a></li>
+
+<li><a href="/index.php/p/jts/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+JTS — Java Tools for Scilab</a></li>
+
+<li><a href="/index.php/p/lat/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Lattice Algebra Toolbox</a></li>
+
+<li><a href="/index.php/p/lcc-windows/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+LCC-windows</a></li>
+
+<li><a href="/index.php/p/libsvm/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+libsvm and liblinear</a></li>
+
+<li><a href="/index.php/p/linalg/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+linalg</a></li>
+
+<li><a href="/index.php/p/mpc-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Linear and Nonlinear Model Predictive Control</a></li>
+
+<li><a href="/index.php/p/LRP/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Linear Repetitive Process Toolkit</a></li>
+
+<li><a href="/index.php/p/linux-prerequisites-sources/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+linux-prerequisites-sources</a></li>
+
+<li><a href="/index.php/p/lolimot/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+LOLIMOT</a></li>
+
+<li><a href="/index.php/p/lowdisc/">
+
+<img class="logo" src="/index.php/p/lowdisc/logo/" alt="Project logo" />
+Low Discrepancy Sequences</a></li>
+
+<li><a href="/index.php/p/machine-learning-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Machine Learning Toolbox</a></li>
+
+<li><a href="/index.php/p/makematrix/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Make Matrix</a></li>
+
+<li><a href="/index.php/p/maple2scilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+maple2scilab</a></li>
+
+<li><a href="/index.php/p/mathieu/">
+
+<img class="logo" src="/index.php/p/mathieu/logo/" alt="Project logo" />
+Mathieu functions toolbox for Scilab</a></li>
+
+<li><a href="/index.php/p/moc-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Matlab/Octave Compatibility toolbox</a></li>
+
+<li><a href="/index.php/p/matmark/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Matrix Market</a></li>
+
+<li><a href="/index.php/p/med/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+MED</a></li>
+
+<li><a href="/index.php/p/memetic-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Memetic algorithms toolbox</a></li>
+
+<li><a href="/index.php/p/metanet/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Metanet</a></li>
+
+<li><a href="/index.php/p/boost-metanet/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Metanet and Boost.Graph</a></li>
+
+<li><a href="/index.php/p/MinGW-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+MinGW Compiler Toolbox</a></li>
+
+<li><a href="/index.php/p/minphase/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Minimum phase function design and its application</a></li>
+
+<li><a href="/index.php/p/mkltools/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+mkltools</a></li>
+
+<li><a href="/index.php/p/mmodd/">
+
+<img class="logo" src="/index.php/p/mmodd/logo/" alt="Project logo" />
+MmodD</a></li>
+
+<li><a href="/index.php/p/modbus/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+modbus</a></li>
+
+<li><a href="/index.php/p/mpscilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+mpscilab</a></li>
+
+<li><a href="/index.php/p/scimqtt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+MQTT Client Module for Scilab</a></li>
+
+<li><a href="/index.php/p/msvc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+msvc</a></li>
+
+<li><a href="/index.php/p/nan-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NaN_Toolbox</a></li>
+
+<li><a href="/index.php/p/netcdf4/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NetCDF-4</a></li>
+
+<li><a href="/index.php/p/nidaq/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NIDAQ</a></li>
+
+<li><a href="/index.php/p/nisp/">
+
+<img class="logo" src="/index.php/p/nisp/logo/" alt="Project logo" />
+NISP</a></li>
+
+<li><a href="/index.php/p/nisp-cours/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NISP-Cours</a></li>
+
+<li><a href="/index.php/p/nistdataset/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NIST Dataset</a></li>
+
+<li><a href="/index.php/p/number/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Number</a></li>
+
+<li><a href="/index.php/p/old-doc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+old_doc</a></li>
+
+<li><a href="/index.php/p/old-tests/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+old_tests</a></li>
+
+<li><a href="/index.php/p/ole/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ole</a></li>
+
+<li><a href="/index.php/p/OMD/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+OMD</a></li>
+
+<li><a href="/index.php/p/omd2/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+OMD2/CSDL</a></li>
+
+<li><a href="/index.php/p/opc-client/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+opc_client</a></li>
+
+<li><a href="/index.php/p/openfoam/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+OpenFOAM-toolbox</a></li>
+
+<li><a href="/index.php/p/optkelley/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+optkelley</a></li>
+
+<li><a href="/index.php/p/ortpol/">
+
+<img class="logo" src="/index.php/p/ortpol/logo/" alt="Project logo" />
+Orthogonal Polynomials</a></li>
+
+<li><a href="/index.php/p/osu-svm/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+OsuSVM</a></li>
+
+<li><a href="/index.php/p/overload/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Overload</a></li>
+
+<li><a href="/index.php/p/pso-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Particle Swarm Optimization Toolbox </a></li>
+
+<li><a href="/index.php/p/pims/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+PIMS</a></li>
+
+<li><a href="/index.php/p/plugin-papyrus/">
+
+<img class="logo" src="/index.php/p/plugin-papyrus/logo/" alt="Project logo" />
+plugin_papyrus</a></li>
+
+<li><a href="/index.php/p/pt-ccodegen/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+PThread C Code Generator</a></li>
+
+<li><a href="/index.php/p/pvm/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+PVM</a></li>
+
+<li><a href="/index.php/p/quapro/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+quapro</a></li>
+
+<li><a href="/index.php/p/randnum/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Randnum</a></li>
+
+<li><a href="/index.php/p/isitchaos/">
+
+<img class="logo" src="/index.php/p/isitchaos/logo/" alt="Project logo" />
+Reconnaissance du chaos</a></li>
+
+<li><a href="/index.php/p/regtools/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Regression tools</a></li>
+
+<li><a href="/index.php/p/restclient/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+RESTClient</a></li>
+
+<li><a href="/index.php/p/richelieu/">
+
+<img class="logo" src="/index.php/p/richelieu/logo/" alt="Project logo" />
+Richelieu</a></li>
+
+<li><a href="/index.php/p/scetoexe/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scetoexe</a></li>
+
+<li><a href="/index.php/p/sci-ipopt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+sci-ipopt</a></li>
+
+<li><a href="/index.php/p/sciann/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+sciann</a></li>
+
+<li><a href="/index.php/p/scibench/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scibench</a></li>
+
+<li><a href="/index.php/p/scicheckupdate/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scicheckupdate</a></li>
+
+<li><a href="/index.php/p/scicobyla/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scicobyla</a></li>
+
+<li><a href="/index.php/p/scicrypt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciCrypt</a></li>
+
+<li><a href="/index.php/p/scidakota/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciDakota</a></li>
+
+<li><a href="/index.php/p/scidemo/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scidemo</a></li>
+
+<li><a href="/index.php/p/scidoc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scidoc</a></li>
+
+<li><a href="/index.php/p/scidoe/">
+
+<img class="logo" src="/index.php/p/scidoe/logo/" alt="Project logo" />
+Scidoe</a></li>
+
+<li><a href="/index.php/p/sip/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab + SIP</a></li>
+
+<li><a href="/index.php/p/scilab2c/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab 2 C</a></li>
+
+<li><a href="/index.php/p/json/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab JSON</a></li>
+
+<li><a href="/index.php/p/scinetwork/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Network</a></li>
+
+<li><a href="/index.php/p/scilab-android/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab on Android</a></li>
+
+<li><a href="/index.php/p/splp/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Persian Localization Project</a></li>
+
+<li><a href="/index.php/p/module-lycee/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab pour les lycées</a></li>
+
+<li><a href="/index.php/p/scicurl/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Remote File Access</a></li>
+
+<li><a href="/index.php/p/rf-toolkit/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab RF Toolkit - A New Toolbox For Versatile RF Applications</a></li>
+
+<li><a href="/index.php/p/swt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Wavelet Toolbox</a></li>
+
+<li><a href="/index.php/p/sciwbs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Web-services Toolbox</a></li>
+
+<li><a href="/index.php/p/scilab-emacs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scilab-emacs</a></li>
+
+<li><a href="/index.php/p/scilab-eclipse/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab/Eclipse plugin</a></li>
+
+<li><a href="/index.php/p/scilab-xll/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab_XLL</a></li>
+
+<li><a href="/index.php/p/scilin/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scilin</a></li>
+
+<li><a href="/index.php/p/scimax/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciMax</a></li>
+
+<li><a href="/index.php/p/odbc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciODBC</a></li>
+
+<li><a href="/index.php/p/scipde/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scipde</a></li>
+
+<li><a href="/index.php/p/scirenderer/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciRenderer</a></li>
+
+<li><a href="/index.php/p/sciscipy/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Sciscipy: A Scilab API for Python</a></li>
+
+<li><a href="/index.php/p/serial-port/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+serial_port</a></li>
+
+<li><a href="/index.php/p/dspblock/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Signal Processing Block for Xcos</a></li>
+
+<li><a href="/index.php/p/simm/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SIMM</a></li>
+
+<li><a href="/index.php/p/simulink2xcos/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Simulink2Xcos</a></li>
+
+<li><a href="/index.php/p/sisotool/">
+
+<img class="logo" src="/index.php/p/sisotool/logo/" alt="Project logo" />
+sisotool for Scilab</a></li>
+
+<li><a href="/index.php/p/smp/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SMP</a></li>
+
+<li><a href="/index.php/p/sndfile-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+sndfile_toolbox</a></li>
+
+<li><a href="/index.php/p/sopi/">
+
+<img class="logo" src="/index.php/p/sopi/logo/" alt="Project logo" />
+sopi</a></li>
+
+<li><a href="/index.php/p/spilu/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Sparse Incomplete LU Preconditionners</a></li>
+
+<li><a href="/index.php/p/splspc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Sparse Least Squares Preconditioned methods</a></li>
+
+<li><a href="/index.php/p/specfun/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Specfun</a></li>
+
+<li><a href="/index.php/p/toolbox-spgl1/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SPGL1 Toolbox</a></li>
+
+<li><a href="/index.php/p/statvis/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Statistical visualization</a></li>
+
+<li><a href="/index.php/p/statpack/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Statpack</a></li>
+
+<li><a href="/index.php/p/stixbox/">
+
+<img class="logo" src="/index.php/p/stixbox/logo/" alt="Project logo" />
+Stixbox</a></li>
+
+<li><a href="/index.php/p/sudoku/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+sudoku</a></li>
+
+<li><a href="/index.php/p/sundials/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Sundials Update</a></li>
+
+<li><a href="/index.php/p/symcomp/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Symbolic Computing</a></li>
+
+<li><a href="/index.php/p/sysmetab/">
+
+<img class="logo" src="/index.php/p/sysmetab/logo/" alt="Project logo" />
+Sysmetab, 13C metabolic flux analysis with Scilab</a></li>
+
+<li><a href="/index.php/p/tango-gateway/">
+
+<img class="logo" src="/index.php/p/tango-gateway/logo/" alt="Project logo" />
+tango-gateway</a></li>
+
+<li><a href="/index.php/p/simontest/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+testingagain</a></li>
+
+<li><a href="/index.php/p/forge-tests/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Tests Forge</a></li>
+
+<li><a href="/index.php/p/texmacs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+texmacs</a></li>
+
+<li><a href="/index.php/p/stftb/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Time Frequency Toolbox</a></li>
+
+<li><a href="/index.php/p/tropics/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Tropical Toolbox</a></li>
+
+<li><a href="/index.php/p/type2fls/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Type 2 Fuzzy Logic Toolbox</a></li>
+
+<li><a href="/index.php/p/udp-blocks/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+udp-blocks</a></li>
+
+<li><a href="/index.php/p/uncprb/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+uncprb</a></li>
+
+<li><a href="/index.php/p/usb-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+USB Communication Toolbox</a></li>
+
+<li><a href="/index.php/p/uvsq-gmres/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+uvsq_gmres</a></li>
+
+<li><a href="/index.php/p/module-gpib/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+visa</a></li>
+
+<li><a href="/index.php/p/waveequation/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Wave Equation</a></li>
+
+<li><a href="/index.php/p/writexmlexcel/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+writeXmlExel</a></li>
+
+<li><a href="/index.php/p/fmu-wrapper/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Xcos FMU wrapper</a></li>
+
+<li><a href="/index.php/p/xcos-profiler/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Xcos Profiler</a></li>
+
+<li><a href="/index.php/p/xcos-code-generator/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Xcos re-useable and customizable code generator</a></li>
+
+<li><a href="/index.php/p/xcos-mbdyn/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+XcosMBdyn</a></li>
+
+<li><a href="/index.php/p/xls-link/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+xls-link</a></li>
+
+<li><a href="/index.php/p/xmllab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+XMLlab</a></li>
+
+<li><a href="/index.php/p/xmltodocbook/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+xmltodocbook</a></li>
+
+<li><a href="/index.php/p/zlib/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+zlib</a></li>
+
+<li><a href="/index.php/p/scibayes/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ψBayes: Scilab Package for Bayesian Estimation and Learning</a></li>
+</ul>
+</li><li>
+<a href="/index.php/help/" title="Help and accessibility features">Help</a></li>
+</ul>
+
+
+<script type="text/javascript" charset="utf-8">
+
+$(document).ready(function() {
+  $('#project-list').bind('mouseenter', function(ev) {
+    $(this).find('ul').show();
+  }).bind('mouseleave', function(ev) {
+    $(this).find('ul').hide();
+  });
+});
+
+</script>
+
+
+
+<div id="header">
+<div id="main-tabs">
+
+  <a accesskey="1" href="/index.php/p/rdataset/">Project Home</a>
+  <a href="/index.php/p/rdataset/downloads/">Downloads</a>
+  <a href="/index.php/p/rdataset/doc/">Documentation</a>
+ <a href="/index.php/p/rdataset/issues/">Issues</a>
+ <a href="/index.php/p/rdataset/source/tree/master/" class="active">Source</a>
+ <a href="/index.php/p/rdataset/review/">Code Review</a>
+
+</div>
+
+
+<div id="sub-tabs">
+<a class="active" href="/index.php/p/rdataset/source/tree/master/">Source Tree</a> |
+<a href="/index.php/p/rdataset/source/changes/master/">Change Log</a>
+ |
+<a href="/index.php/p/rdataset/source/help/">How To Get The Code</a>
+</div>
+
+</div>
+
+      <h1 class="title" id="title">Datasets distributed with R Git Source Tree</h1>
+
+  </div>
+  <div id="bd">
+    <div id="yui-main">
+      <div class="yui-b">
+    <div class="yui-g">
+          
+      <div class="content">
+<h2 class="top"><a href="/index.php/p/rdataset/source/tree/master/">Root</a><span class="sep">/</span><span class="breadcrumb"><a href="/index.php/p/rdataset/source/tree/master/csv">csv</a><span class="sep">/</span><a href="/index.php/p/rdataset/source/tree/master/csv/datasets">datasets</a><span class="sep">/</span><a href="/index.php/p/rdataset/source/tree/master/csv/datasets/iris.csv">iris.csv</a></span></h2>
+
+<table class="code" summary=" ">
+
+<tbody>
+<tr class="c-line"><td class="code-lc" id="L1"><a href="#L1">1</a></td><td class="code mono">&quot;&quot;,&quot;Sepal.Length&quot;,&quot;Sepal.Width&quot;,&quot;Petal.Length&quot;,&quot;Petal.Width&quot;,&quot;Species&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L2"><a href="#L2">2</a></td><td class="code mono">&quot;1&quot;,5.1,3.5,1.4,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L3"><a href="#L3">3</a></td><td class="code mono">&quot;2&quot;,4.9,3,1.4,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L4"><a href="#L4">4</a></td><td class="code mono">&quot;3&quot;,4.7,3.2,1.3,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L5"><a href="#L5">5</a></td><td class="code mono">&quot;4&quot;,4.6,3.1,1.5,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L6"><a href="#L6">6</a></td><td class="code mono">&quot;5&quot;,5,3.6,1.4,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L7"><a href="#L7">7</a></td><td class="code mono">&quot;6&quot;,5.4,3.9,1.7,0.4,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L8"><a href="#L8">8</a></td><td class="code mono">&quot;7&quot;,4.6,3.4,1.4,0.3,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L9"><a href="#L9">9</a></td><td class="code mono">&quot;8&quot;,5,3.4,1.5,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L10"><a href="#L10">10</a></td><td class="code mono">&quot;9&quot;,4.4,2.9,1.4,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L11"><a href="#L11">11</a></td><td class="code mono">&quot;10&quot;,4.9,3.1,1.5,0.1,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L12"><a href="#L12">12</a></td><td class="code mono">&quot;11&quot;,5.4,3.7,1.5,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L13"><a href="#L13">13</a></td><td class="code mono">&quot;12&quot;,4.8,3.4,1.6,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L14"><a href="#L14">14</a></td><td class="code mono">&quot;13&quot;,4.8,3,1.4,0.1,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L15"><a href="#L15">15</a></td><td class="code mono">&quot;14&quot;,4.3,3,1.1,0.1,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L16"><a href="#L16">16</a></td><td class="code mono">&quot;15&quot;,5.8,4,1.2,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L17"><a href="#L17">17</a></td><td class="code mono">&quot;16&quot;,5.7,4.4,1.5,0.4,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L18"><a href="#L18">18</a></td><td class="code mono">&quot;17&quot;,5.4,3.9,1.3,0.4,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L19"><a href="#L19">19</a></td><td class="code mono">&quot;18&quot;,5.1,3.5,1.4,0.3,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L20"><a href="#L20">20</a></td><td class="code mono">&quot;19&quot;,5.7,3.8,1.7,0.3,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L21"><a href="#L21">21</a></td><td class="code mono">&quot;20&quot;,5.1,3.8,1.5,0.3,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L22"><a href="#L22">22</a></td><td class="code mono">&quot;21&quot;,5.4,3.4,1.7,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L23"><a href="#L23">23</a></td><td class="code mono">&quot;22&quot;,5.1,3.7,1.5,0.4,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L24"><a href="#L24">24</a></td><td class="code mono">&quot;23&quot;,4.6,3.6,1,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L25"><a href="#L25">25</a></td><td class="code mono">&quot;24&quot;,5.1,3.3,1.7,0.5,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L26"><a href="#L26">26</a></td><td class="code mono">&quot;25&quot;,4.8,3.4,1.9,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L27"><a href="#L27">27</a></td><td class="code mono">&quot;26&quot;,5,3,1.6,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L28"><a href="#L28">28</a></td><td class="code mono">&quot;27&quot;,5,3.4,1.6,0.4,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L29"><a href="#L29">29</a></td><td class="code mono">&quot;28&quot;,5.2,3.5,1.5,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L30"><a href="#L30">30</a></td><td class="code mono">&quot;29&quot;,5.2,3.4,1.4,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L31"><a href="#L31">31</a></td><td class="code mono">&quot;30&quot;,4.7,3.2,1.6,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L32"><a href="#L32">32</a></td><td class="code mono">&quot;31&quot;,4.8,3.1,1.6,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L33"><a href="#L33">33</a></td><td class="code mono">&quot;32&quot;,5.4,3.4,1.5,0.4,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L34"><a href="#L34">34</a></td><td class="code mono">&quot;33&quot;,5.2,4.1,1.5,0.1,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L35"><a href="#L35">35</a></td><td class="code mono">&quot;34&quot;,5.5,4.2,1.4,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L36"><a href="#L36">36</a></td><td class="code mono">&quot;35&quot;,4.9,3.1,1.5,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L37"><a href="#L37">37</a></td><td class="code mono">&quot;36&quot;,5,3.2,1.2,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L38"><a href="#L38">38</a></td><td class="code mono">&quot;37&quot;,5.5,3.5,1.3,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L39"><a href="#L39">39</a></td><td class="code mono">&quot;38&quot;,4.9,3.6,1.4,0.1,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L40"><a href="#L40">40</a></td><td class="code mono">&quot;39&quot;,4.4,3,1.3,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L41"><a href="#L41">41</a></td><td class="code mono">&quot;40&quot;,5.1,3.4,1.5,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L42"><a href="#L42">42</a></td><td class="code mono">&quot;41&quot;,5,3.5,1.3,0.3,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L43"><a href="#L43">43</a></td><td class="code mono">&quot;42&quot;,4.5,2.3,1.3,0.3,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L44"><a href="#L44">44</a></td><td class="code mono">&quot;43&quot;,4.4,3.2,1.3,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L45"><a href="#L45">45</a></td><td class="code mono">&quot;44&quot;,5,3.5,1.6,0.6,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L46"><a href="#L46">46</a></td><td class="code mono">&quot;45&quot;,5.1,3.8,1.9,0.4,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L47"><a href="#L47">47</a></td><td class="code mono">&quot;46&quot;,4.8,3,1.4,0.3,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L48"><a href="#L48">48</a></td><td class="code mono">&quot;47&quot;,5.1,3.8,1.6,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L49"><a href="#L49">49</a></td><td class="code mono">&quot;48&quot;,4.6,3.2,1.4,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L50"><a href="#L50">50</a></td><td class="code mono">&quot;49&quot;,5.3,3.7,1.5,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L51"><a href="#L51">51</a></td><td class="code mono">&quot;50&quot;,5,3.3,1.4,0.2,&quot;setosa&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L52"><a href="#L52">52</a></td><td class="code mono">&quot;51&quot;,7,3.2,4.7,1.4,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L53"><a href="#L53">53</a></td><td class="code mono">&quot;52&quot;,6.4,3.2,4.5,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L54"><a href="#L54">54</a></td><td class="code mono">&quot;53&quot;,6.9,3.1,4.9,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L55"><a href="#L55">55</a></td><td class="code mono">&quot;54&quot;,5.5,2.3,4,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L56"><a href="#L56">56</a></td><td class="code mono">&quot;55&quot;,6.5,2.8,4.6,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L57"><a href="#L57">57</a></td><td class="code mono">&quot;56&quot;,5.7,2.8,4.5,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L58"><a href="#L58">58</a></td><td class="code mono">&quot;57&quot;,6.3,3.3,4.7,1.6,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L59"><a href="#L59">59</a></td><td class="code mono">&quot;58&quot;,4.9,2.4,3.3,1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L60"><a href="#L60">60</a></td><td class="code mono">&quot;59&quot;,6.6,2.9,4.6,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L61"><a href="#L61">61</a></td><td class="code mono">&quot;60&quot;,5.2,2.7,3.9,1.4,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L62"><a href="#L62">62</a></td><td class="code mono">&quot;61&quot;,5,2,3.5,1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L63"><a href="#L63">63</a></td><td class="code mono">&quot;62&quot;,5.9,3,4.2,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L64"><a href="#L64">64</a></td><td class="code mono">&quot;63&quot;,6,2.2,4,1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L65"><a href="#L65">65</a></td><td class="code mono">&quot;64&quot;,6.1,2.9,4.7,1.4,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L66"><a href="#L66">66</a></td><td class="code mono">&quot;65&quot;,5.6,2.9,3.6,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L67"><a href="#L67">67</a></td><td class="code mono">&quot;66&quot;,6.7,3.1,4.4,1.4,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L68"><a href="#L68">68</a></td><td class="code mono">&quot;67&quot;,5.6,3,4.5,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L69"><a href="#L69">69</a></td><td class="code mono">&quot;68&quot;,5.8,2.7,4.1,1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L70"><a href="#L70">70</a></td><td class="code mono">&quot;69&quot;,6.2,2.2,4.5,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L71"><a href="#L71">71</a></td><td class="code mono">&quot;70&quot;,5.6,2.5,3.9,1.1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L72"><a href="#L72">72</a></td><td class="code mono">&quot;71&quot;,5.9,3.2,4.8,1.8,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L73"><a href="#L73">73</a></td><td class="code mono">&quot;72&quot;,6.1,2.8,4,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L74"><a href="#L74">74</a></td><td class="code mono">&quot;73&quot;,6.3,2.5,4.9,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L75"><a href="#L75">75</a></td><td class="code mono">&quot;74&quot;,6.1,2.8,4.7,1.2,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L76"><a href="#L76">76</a></td><td class="code mono">&quot;75&quot;,6.4,2.9,4.3,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L77"><a href="#L77">77</a></td><td class="code mono">&quot;76&quot;,6.6,3,4.4,1.4,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L78"><a href="#L78">78</a></td><td class="code mono">&quot;77&quot;,6.8,2.8,4.8,1.4,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L79"><a href="#L79">79</a></td><td class="code mono">&quot;78&quot;,6.7,3,5,1.7,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L80"><a href="#L80">80</a></td><td class="code mono">&quot;79&quot;,6,2.9,4.5,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L81"><a href="#L81">81</a></td><td class="code mono">&quot;80&quot;,5.7,2.6,3.5,1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L82"><a href="#L82">82</a></td><td class="code mono">&quot;81&quot;,5.5,2.4,3.8,1.1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L83"><a href="#L83">83</a></td><td class="code mono">&quot;82&quot;,5.5,2.4,3.7,1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L84"><a href="#L84">84</a></td><td class="code mono">&quot;83&quot;,5.8,2.7,3.9,1.2,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L85"><a href="#L85">85</a></td><td class="code mono">&quot;84&quot;,6,2.7,5.1,1.6,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L86"><a href="#L86">86</a></td><td class="code mono">&quot;85&quot;,5.4,3,4.5,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L87"><a href="#L87">87</a></td><td class="code mono">&quot;86&quot;,6,3.4,4.5,1.6,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L88"><a href="#L88">88</a></td><td class="code mono">&quot;87&quot;,6.7,3.1,4.7,1.5,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L89"><a href="#L89">89</a></td><td class="code mono">&quot;88&quot;,6.3,2.3,4.4,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L90"><a href="#L90">90</a></td><td class="code mono">&quot;89&quot;,5.6,3,4.1,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L91"><a href="#L91">91</a></td><td class="code mono">&quot;90&quot;,5.5,2.5,4,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L92"><a href="#L92">92</a></td><td class="code mono">&quot;91&quot;,5.5,2.6,4.4,1.2,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L93"><a href="#L93">93</a></td><td class="code mono">&quot;92&quot;,6.1,3,4.6,1.4,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L94"><a href="#L94">94</a></td><td class="code mono">&quot;93&quot;,5.8,2.6,4,1.2,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L95"><a href="#L95">95</a></td><td class="code mono">&quot;94&quot;,5,2.3,3.3,1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L96"><a href="#L96">96</a></td><td class="code mono">&quot;95&quot;,5.6,2.7,4.2,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L97"><a href="#L97">97</a></td><td class="code mono">&quot;96&quot;,5.7,3,4.2,1.2,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L98"><a href="#L98">98</a></td><td class="code mono">&quot;97&quot;,5.7,2.9,4.2,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L99"><a href="#L99">99</a></td><td class="code mono">&quot;98&quot;,6.2,2.9,4.3,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L100"><a href="#L100">100</a></td><td class="code mono">&quot;99&quot;,5.1,2.5,3,1.1,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L101"><a href="#L101">101</a></td><td class="code mono">&quot;100&quot;,5.7,2.8,4.1,1.3,&quot;versicolor&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L102"><a href="#L102">102</a></td><td class="code mono">&quot;101&quot;,6.3,3.3,6,2.5,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L103"><a href="#L103">103</a></td><td class="code mono">&quot;102&quot;,5.8,2.7,5.1,1.9,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L104"><a href="#L104">104</a></td><td class="code mono">&quot;103&quot;,7.1,3,5.9,2.1,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L105"><a href="#L105">105</a></td><td class="code mono">&quot;104&quot;,6.3,2.9,5.6,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L106"><a href="#L106">106</a></td><td class="code mono">&quot;105&quot;,6.5,3,5.8,2.2,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L107"><a href="#L107">107</a></td><td class="code mono">&quot;106&quot;,7.6,3,6.6,2.1,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L108"><a href="#L108">108</a></td><td class="code mono">&quot;107&quot;,4.9,2.5,4.5,1.7,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L109"><a href="#L109">109</a></td><td class="code mono">&quot;108&quot;,7.3,2.9,6.3,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L110"><a href="#L110">110</a></td><td class="code mono">&quot;109&quot;,6.7,2.5,5.8,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L111"><a href="#L111">111</a></td><td class="code mono">&quot;110&quot;,7.2,3.6,6.1,2.5,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L112"><a href="#L112">112</a></td><td class="code mono">&quot;111&quot;,6.5,3.2,5.1,2,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L113"><a href="#L113">113</a></td><td class="code mono">&quot;112&quot;,6.4,2.7,5.3,1.9,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L114"><a href="#L114">114</a></td><td class="code mono">&quot;113&quot;,6.8,3,5.5,2.1,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L115"><a href="#L115">115</a></td><td class="code mono">&quot;114&quot;,5.7,2.5,5,2,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L116"><a href="#L116">116</a></td><td class="code mono">&quot;115&quot;,5.8,2.8,5.1,2.4,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L117"><a href="#L117">117</a></td><td class="code mono">&quot;116&quot;,6.4,3.2,5.3,2.3,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L118"><a href="#L118">118</a></td><td class="code mono">&quot;117&quot;,6.5,3,5.5,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L119"><a href="#L119">119</a></td><td class="code mono">&quot;118&quot;,7.7,3.8,6.7,2.2,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L120"><a href="#L120">120</a></td><td class="code mono">&quot;119&quot;,7.7,2.6,6.9,2.3,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L121"><a href="#L121">121</a></td><td class="code mono">&quot;120&quot;,6,2.2,5,1.5,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L122"><a href="#L122">122</a></td><td class="code mono">&quot;121&quot;,6.9,3.2,5.7,2.3,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L123"><a href="#L123">123</a></td><td class="code mono">&quot;122&quot;,5.6,2.8,4.9,2,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L124"><a href="#L124">124</a></td><td class="code mono">&quot;123&quot;,7.7,2.8,6.7,2,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L125"><a href="#L125">125</a></td><td class="code mono">&quot;124&quot;,6.3,2.7,4.9,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L126"><a href="#L126">126</a></td><td class="code mono">&quot;125&quot;,6.7,3.3,5.7,2.1,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L127"><a href="#L127">127</a></td><td class="code mono">&quot;126&quot;,7.2,3.2,6,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L128"><a href="#L128">128</a></td><td class="code mono">&quot;127&quot;,6.2,2.8,4.8,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L129"><a href="#L129">129</a></td><td class="code mono">&quot;128&quot;,6.1,3,4.9,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L130"><a href="#L130">130</a></td><td class="code mono">&quot;129&quot;,6.4,2.8,5.6,2.1,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L131"><a href="#L131">131</a></td><td class="code mono">&quot;130&quot;,7.2,3,5.8,1.6,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L132"><a href="#L132">132</a></td><td class="code mono">&quot;131&quot;,7.4,2.8,6.1,1.9,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L133"><a href="#L133">133</a></td><td class="code mono">&quot;132&quot;,7.9,3.8,6.4,2,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L134"><a href="#L134">134</a></td><td class="code mono">&quot;133&quot;,6.4,2.8,5.6,2.2,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L135"><a href="#L135">135</a></td><td class="code mono">&quot;134&quot;,6.3,2.8,5.1,1.5,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L136"><a href="#L136">136</a></td><td class="code mono">&quot;135&quot;,6.1,2.6,5.6,1.4,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L137"><a href="#L137">137</a></td><td class="code mono">&quot;136&quot;,7.7,3,6.1,2.3,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L138"><a href="#L138">138</a></td><td class="code mono">&quot;137&quot;,6.3,3.4,5.6,2.4,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L139"><a href="#L139">139</a></td><td class="code mono">&quot;138&quot;,6.4,3.1,5.5,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L140"><a href="#L140">140</a></td><td class="code mono">&quot;139&quot;,6,3,4.8,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L141"><a href="#L141">141</a></td><td class="code mono">&quot;140&quot;,6.9,3.1,5.4,2.1,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L142"><a href="#L142">142</a></td><td class="code mono">&quot;141&quot;,6.7,3.1,5.6,2.4,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L143"><a href="#L143">143</a></td><td class="code mono">&quot;142&quot;,6.9,3.1,5.1,2.3,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L144"><a href="#L144">144</a></td><td class="code mono">&quot;143&quot;,5.8,2.7,5.1,1.9,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L145"><a href="#L145">145</a></td><td class="code mono">&quot;144&quot;,6.8,3.2,5.9,2.3,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L146"><a href="#L146">146</a></td><td class="code mono">&quot;145&quot;,6.7,3.3,5.7,2.5,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L147"><a href="#L147">147</a></td><td class="code mono">&quot;146&quot;,6.7,3,5.2,2.3,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L148"><a href="#L148">148</a></td><td class="code mono">&quot;147&quot;,6.3,2.5,5,1.9,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L149"><a href="#L149">149</a></td><td class="code mono">&quot;148&quot;,6.5,3,5.2,2,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L150"><a href="#L150">150</a></td><td class="code mono">&quot;149&quot;,6.2,3.4,5.4,2.3,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L151"><a href="#L151">151</a></td><td class="code mono">&quot;150&quot;,5.9,3,5.1,1.8,&quot;virginica&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+</tbody>
+</table>
+
+<p class="right soft"><a href="/index.php/p/rdataset/source/file/master/csv/datasets/iris.csv"><img style="vertical-align: text-bottom;" src="/media/idf/img/package-grey.png" alt="Archive" align="bottom" /></a> <a href="/index.php/p/rdataset/source/file/master/csv/datasets/iris.csv">Download this file</a></p>
+
+</div>
+    </div>
+      </div>
+    </div>
+    <div class="yui-b context" id="context">
+
+
+
+<div class="expander">
+<div class="gradient"></div>
+<h3>
+  Branches
+  <span class="input-with-delete">
+    <input type="text" rel="branch-list" class="filter-list"  title="filter branches" />
+    <span></span>
+  </span>
+</h3>
+<ul id="branch-list">
+
+
+<li class="label active">
+  <a href="/index.php/p/rdataset/source/tree/master/" class="label">master</a>
+</li>
+
+</ul>
+
+</div>
+
+
+</div>
+  </div>
+  <div id="ft"></div>
+</div>
+<script type="text/javascript" src="/media/idf/js/jquery.hotkeys.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <!--
+$(document).bind('keydown','Shift+h',function (){window.location.href='/index.php/help/';});
+
+$(document).bind('keydown','Shift+u',function (){window.location.href='/index.php/p/rdataset/timeline/all/';});
+$(document).bind('keydown','Shift+a',function (){window.location.href='/index.php/p/rdataset/issues/create/';});
+$(document).bind('keydown','Shift+i',function (){window.location.href='/index.php/p/rdataset/issues/';});
+$(document).bind('keydown','Shift+d',function (){window.location.href='/index.php/p/rdataset/downloads/';});
+$(document).bind('keydown','Shift+o',function (){window.location.href='/index.php/p/rdataset/doc/';});
+$(document).bind('keydown','Shift+s',function (){window.location.href='/index.php/p/rdataset/source/tree/master/';});
+ //-->
+</script>
+
+
+
+<script type="text/javascript" charset="utf-8">
+
+$(document).ready(function() {
+  $("input.filter-list").each(function() {
+    var input = $(this);
+    var lists = $("ul#" + input.attr("rel"));
+    if (lists.length == 0)
+      return;
+    var list = $(lists[0]);
+    var wrapper = input.parent();
+
+    // a list should contain a reasonable amount of items
+    // to be filterable - we also give the filter input a
+    // special class here so we recognize it later in case
+    // we have to hide it when the list view is collapsed
+    if (list.children("li").length > 10) {
+      wrapper.addClass("activated");
+      input.focus(function() {
+        // ensure that the parent of the list keeps activated / opened
+        list.parent().addClass("activated");
+        if (input.attr("value") == input.attr("title")) {
+          input.attr("value", "");
+          wrapper.removeClass("default");
+        }
+      });
+      input.blur(function() {
+        list.parent().removeClass("activated");
+        if (input.attr("value").length == 0) {
+          input.attr("value", input.attr("title"));
+          wrapper.addClass("default");
+        }
+      });
+      input.keyup(function(ev) {
+        var filter = $(this)[0];
+        list.children("li").css('display', 'block');
+        list.children("li").filter(function(index) {
+          if (filter.value == "")
+            return false;
+          if ($(this).text().indexOf(filter.value) > -1)
+            return false;
+          return true;
+        }).css('display', 'none');
+      });
+      wrapper.children('span').click(function() {
+        input.val('').keyup().blur();
+      });
+      // initialize it with the default
+      input.val('').blur();
+    }
+  });
+});
+
+</script>
+
+
+<script type="text/javascript" src="/media/idf/js/prettify.js"></script>
+<script type="text/javascript">prettyPrint();</script>
+
+
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+$(document).ready(function(){
+    var frag = location.hash;
+    if ($('#preview').length) {
+        location.hash = '#preview';
+    }
+    else if (frag.length > 3 && frag.substring(0, 3) == '#ic') {
+        $(frag).addClass("issue-comment-focus");
+    }
+
+    var contextTop = $('div#context').position().top;
+    var contextFixEnabled = true;
+    $(window).scroll(function() {
+         if (!contextFixEnabled || $(window).scrollTop() < contextTop)
+             $('div#context').css('position', 'relative');
+         else
+             $('div#context').css('position', 'fixed');
+    });
+    $(window).resize(function() {
+         contextFixEnabled =
+             $('div#context').offset().top + $('div#context').height() <
+             $(window).height();
+    });
+    $(window).resize();
+});
+//]]>
+</script>
+</body>
+</html>
